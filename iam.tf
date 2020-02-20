@@ -1,6 +1,7 @@
 provider "aws" {
   assume_role {
     role_arn     = "role"
+    region  = "us-east-1"
   }
 }
 
