@@ -1,6 +1,6 @@
 provider "aws" {
   assume_role {
-    role_arn     = role
+    role_arn     = "role"
   }
 }
 
